@@ -1,0 +1,66 @@
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces The power cycle of SCATMA. It provides a 30 s high-power burst of energy to the heater from a combination of stored energy and energy it extracts from the mains supply through the fast charger. Then over the next 15 minutes, the system is recharged.}}{8}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Bank circulation technique for limited energy high power applications}}{9}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Energy delivery to the load and the charging and the discharging of the capacitor banks.}}{10}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces PhD project overview of milestones and achievements.}}{12}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces PhD thesis structure.}}{13}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Taxonomy of electrochemical energy storage}}{16}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Ragone plot of various energy storage/propulsion devices and their ``charge" times. Adapted from US Defense Logistics Agency Report}}{17}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Multilayers of a cylindrical LS Ultracapacitor}}{19}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Simple supercapacitor model}}{20}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Multibranch model }}{22}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces A kitchen sink with SCATMA, shows the energy storage bank under the sink with the controller and sensors, and the water trapped inside the pipes connecting to the main water heater. }}{23}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces SCATMA concept in a basic $RC$ loop}}{24}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Comparison of delivered energy for different capacitor bank sizes. $T \tmspace +\medmuskip {.2222em}=\tmspace +\medmuskip {.2222em}CR_L$ neglecting variations of $R$ with C.}}{25}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces SCATMA concept in a basic $RC$ loop}}{27}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Temperature rise versus time of switching supercapacitor banks in various start up delay sequences.}}{29}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Temperature profile comparison between a 2.5kW transformer and SC bank.}}{31}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces The outlet temperature versus time at different flow rates (a) $90\nobreakspace {}m\Omega $ (b) $180\nobreakspace {}m\Omega $, heating coil.}}{32}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Hybridization approaches in supercapacitors and rechargeable batteries.}}{37}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Parallel hybrid configured to deliver the total power onto a single load resistor.}}{38}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Parallel hybrid current profiles (a) expanded view of a single cycle beyond off time; showing $I_{b\_op}$. (b) switching cycles, on duration controlled by $I_{b\_op}$.}}{39}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Parallel hybrid on state equivalent circuit\nobreakspace {}(switch 's' closes when t=0\nobreakspace {}s.}}{40}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Parallel hybrid current profile - switching cycles, on duration controlled by $i_b^{on}$.}}{41}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Parallel hybrid current profile - switching cycles, on duration controlled by $i_b^{on}$.}}{42}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Simplified block diagram of the hybrid-series system.}}{43}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Simplified block diagram of the hybrid-series system.}}{44}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces ABB miniature circuit breakers S200 series tripping characteristic K, UL1077 supplementary protection standards}}{47}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Bank circulation technique (a) A three bank example of the bank circulating technique. The load will be an inverter in the case of SRUPS and a resistive high power heater coil for SCATMA. (b) Generalised scheme of operation for n SC banks circulating for m cycles. Source \cite {SRUPS:11}.}}{49}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Solution for the capacitor bank size variation with increasing number of cycles for the SCATMA application example.}}{52}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Capacitor charging methods, current and voltage profiles}}{57}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Charging a partially discharged capacitor from a high voltage through a resistive path}}{59}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Efficiency of charging a capacitor in a resistive path. All curves are normalized by $Q^2/2C$}}{62}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Charging time improvement of high voltage charging with terminal voltage monitoring for 310 F, 2.7 V capacitor}}{62}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Charging time improvement of high voltage charging with terminal voltage monitoring for 310 F, 2.7 V capacitor}}{63}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Charging a partially discharged capacitor from a high voltage through an inductive path}}{63}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces The three current responses of a $RLC$ system. (a) overdamped, (b) critically damped and (c) underdamped. e.g., $R = 40\nobreakspace {}m\Omega ,\nobreakspace {} C = 50\nobreakspace {}\text {F},\nobreakspace {} m = 2,\nobreakspace {} n = 0.5,\nobreakspace {} V_c = 12\nobreakspace {}\text {V},\nobreakspace {} L_{\text {critical}} = R^2C/4,\nobreakspace {} L_{\text {overdamped}} = 10 \times L_{\text {critical}},\nobreakspace {} L_{\text {underdamped}} = 0.1 \times L_{\text {critical}}$}}{66}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Charging a capacitor through an inductive path. $V_c \tmspace +\medmuskip {.2222em}=\tmspace +\medmuskip {.2222em}2.7$\nobreakspace {}V, $R \tmspace +\medmuskip {.2222em}=\tmspace +\medmuskip {.2222em}50\text {m}\Omega , C \tmspace +\medmuskip {.2222em}=\tmspace +\medmuskip {.2222em}310\nobreakspace {}\text {F} \text {and} n \tmspace +\medmuskip {.2222em}=\tmspace +\medmuskip {.2222em}0.3$}}{67}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Efficiency improvement of a $RLC$ system over a $RC$ system for $m$-times charging ($C = 310\nobreakspace {}$F$, L = 2$ mH, $R = 50\nobreakspace {}$m$\Omega , V_C = 2.7 $V,$ n = 0.3$)}}{69}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces The equivalent circuit of the topology. The coupled inductor is modelled by an ideal transformer in parallel with the magnetizing inductance.\nobreakspace {}(a)\nobreakspace {}ON state (b)\nobreakspace {}OFF state. Current path in each state is indicated with thicker lines.}}{71}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces The equivalent circuit of the topology. The coupled inductor is modelled by an ideal transformer in parallel with the magnetizing inductance.\nobreakspace {}(a)\nobreakspace {}ON state (b)\nobreakspace {}OFF state. Current path in each state is indicated with thicker lines.}}{72}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces The equivalent circuit of the topology. The coupled inductor is modelled by an ideal transformer in parallel with the magnetizing inductance.\nobreakspace {}(a)\nobreakspace {}ON state (b)\nobreakspace {}OFF state. Current path in each state is indicated with thicker lines.}}{73}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces The equivalent circuit of the topology. The coupled inductor is modelled by an ideal transformer in parallel with the magnetizing inductance.\nobreakspace {}(a)\nobreakspace {}ON state (b)\nobreakspace {}OFF state. Current path in each state is indicated with thicker lines.}}{73}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces The overall circuit with integrated controls for charging C1 and C2 at the same rate. The converter is directly fed by the fullwave rectified mains without using any buffer capacitors.}}{77}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Peak input current to RMS input current relationship for a 50\% duty.}}{78}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Core loss variation with temperature at 100\nobreakspace {}kHz for fixed 1\nobreakspace {}kGauss flux density.}}{79}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Core loss variation with temperature at 100\nobreakspace {}kHz for fixed 1\nobreakspace {}kGauss flux density.}}{80}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Magnetics inc ferrite core shapes from 2013 Magnetics ferrite cores catalogue.}}{81}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Magnetics inc ferrite core shapes from 2013 Magnetics ferrite cores catalogue.}}{82}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Hysteresis loop for a magnetic core operating only in the first quadrant of the B-H curve.}}{83}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Measurement of transformer inductances: (a) primary inductance (b) secondary inductance (c) leakage inductance (d) series connection inductance (e) inverse series connection inductance}}{87}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Capacitor currents with a mosfet as the secondary switch.}}{90}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Capacitor currents with a mosfet as the secondary switch.}}{90}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Capacitor currents with a mosfet as the secondary switch.}}{91}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Capacitor currents with a mosfet as the secondary switch.}}{92}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Capacitor currents with a mosfet as the secondary switch.}}{92}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Capacitor currents with a mosfet as the secondary switch.}}{93}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Capacitor currents with a mosfet as the secondary switch.}}{94}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces The overall circuit with integrated controls for charging C1 and C2 at the same rate. The converter is directly fed by the fullwave rectified mains without using any buffer capacitors.}}{95}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Capacitor currents with a mosfet as the secondary switch.}}{96}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Capacitor currents with a mosfet as the secondary switch.}}{97}
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Experimental results for PFC. (a)\nobreakspace {}expanded view of the primary and secondary capacitor current (b)\nobreakspace {}FFT of the primary capacitor current\nobreakspace {}(same as the current drawn from the mains)}}{98}
+\addvspace {10\p@ }

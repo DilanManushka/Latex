@@ -1,0 +1,62 @@
+%-------------------------------------------------------------------
+\chapter{\textbf{Fast Charger Design}}
+\label{ch:Charger_design}
+%-------------------------------------------------------------------
+
+It was seen in Chapter\ref{ch:Charger_basics}, that the fast charging requirement of applications like SCATMA and SRUPS are unique. 
+
+\begin{itemize}
+	\item Ability to extract the energy stored in the above mentioned inductor to charge a separate part of the same capacitor bank
+	\item Ability to use a higher voltage to charge one part of the capacitor
+\end{itemize}
+
+\begin{align*}
+L_a \aeq L_1 + L_2 + 2M,\\[1ex]
+L_b \aeq L_1 - L_2 - 2M.
+\end{align*}
+
+By solving these two equations;
+
+\begin{align}
+\label{eq:La_Lb_M}
+L_1 + L_2 \eq \frac{L_a +L_b}{2}~~~and~~~M\eq\frac{L_a - L_b}{4}.
+\end{align}
+
+The coupling coefficient~($k$) can be found using the following equation
+
+\begin{align}
+\label{eq:La_Lb_k}
+k \eq \sqrt{\frac{M^2}{L_1L_2}}.
+\end{align}
+
+From the practical measurements the following values were obtained; $L_1=1.26~\text{mH},~ L_2\eq1.48~\text{mH},~l_p=19.9~\mu\text{H},~L_a\eq5.47~\text{mH}~and~L_b\eq31.21~\mu\text{H}$. Hence $L_1 + L_2\eq1.26 + 1.48~\text{mH}\eq 2.74~\text{mH}$. $L_1 + L_2$ can be obtained using $L_a ~\text{and}~ L_b$ according to Eq.~\ref{eq:La_Lb_M}. 
+
+Mutual inductance can be calculated from Eq.~\ref{eq:La_Lb_M} 
+\begin{align*}
+M \eq \frac{5.47 - 0.031}{4}~\text{mH} \eq 1.36~\text{mH}.  
+\end{align*}
+
+
+The coupling coefficient calculated according to Eq.~\ref{eq:La_Lb_k}
+
+\begin{align*}
+k \eq \sqrt{\frac{1.36^2}{1.26 \times 1.48}}~~\implies~~ k \eq 0.995.
+\end{align*}
+
+Sample gantt chart:
+
+
+
+
+\begin{ganttchart}{1}{24}
+\gantttitle{Project Name}{24} \\
+\gantttitlelist{1,2,3,4,5,6,7,8,9,10,11,12}{2} \\
+\ganttbar{Proposal Submission}{1}{1}\\
+\ganttbar{Project...}{2}{3}\\
+\ganttmilestone{Mid Review}{14} \\
+\ganttbar{Final Task}{22}{24}
+\end{ganttchart}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

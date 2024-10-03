@@ -1,0 +1,1193 @@
+% AAA
+@BOOK{amit90,
+ author  = {D. J. Amit},
+ title   = {Modelling Brain Function: The World of Attractor Neural
+	Networks},
+ publisher= {Cambridge University Press},
+ address = {Cambridge},
+ year    = {1990}
+}
+@article{alkire96,
+ author = {M. T. Alkire and C. J. D. Pomfrett},
+ title = {Toward the fundamental unit of anesthetic depth: Positron
+	emission tomography evidence suggests that bispectral index (BIS)
+	monitors an important component of anesthetic depth},
+ journal = {Anesthesiology},
+ volume = {85},
+ series = {3A},
+ pages = {174},
+ year = {1996}
+}
+@ARTICLE{antk97,
+ author  = {B. Antkowiak and H. Hentschke},
+ title   = {Cellular mechanisms of gamma rhythms in rat neocortical
+	brain slices probed by the volatile anaesthetic isoflurane},
+ journal = {Neuroscience Letters},
+ volume  = {231},
+ pages   = {87--90},
+ year    = {1997}
+}
+@ARTICLE{antk98,
+ author  = {B. Antkowiak and C. Helfrich-Forster},
+ title   = {Effects of small concentrations of volatile anaesthetics
+ 	on action potential firing of neocortical neurons on vitro},
+ journal = {Anesthesiology},
+ volume  = {88},
+ pages   = {1592--1605},
+ year    = {1998}
+}
+@ARTICLE{archer97,
+ author  = {D. P. Archer and S. H. Roth},
+ title   = {Pharmacodynamics of thiopentone: Nocifensive reflex
+	threshold changes correlate with hippocampal electroencephalography},
+ journal = {British Journal of Anaesthesia},
+ volume  = {79},
+ pages   = {744--749},
+ year    = {1997}
+}
+@BOOK{arnold74,
+ author  = {L. Arnold},
+ title   = {Stochastic Differential Equations: {T}heory and Applications},
+ publisher= {John Wiley \& Sons},
+ address = {New York},
+ year    = {1974}
+}
+% BBB
+@ARTICLE{beurle56,
+ author  = {R. L. Beurle},
+ title   = {Properties of a mass of cells capable of regenerating pulses},
+ journal = {Transactions of the Royal Society (London)},
+ series  = {B},
+ volume  = {240},
+ pages   = {55--94},
+ year    = {1956}
+}
+@ARTICLE{berg87,
+ author  = {J. Berg-Johnsen and I. A. Langmoen},
+ title   = {Isoflurane hyperpolarizes neurones in rat and human
+	cerebral cortex},
+ journal = {Acta Physiol Scand},
+ volume  = {130},
+ pages   = {679--685},
+ year    = {1987}
+}
+@BOOK{braitenberg91,
+ author  = {V. Braitenberg and A. Sch{\"u}z},
+ title   = {Anatomy of a Cortex: Statistics and Geometry},
+ publisher= {Springer-Verlag},
+ address = {Berlin},
+ year    = {1991}
+}
+@BOOK{brown91,
+ author  = {A. G. Brown},
+ title   = {Nerve Cells and Nervous Systems: An Introduction to
+	Neuroscience},
+ publisher= {Springer-Verlag},
+ address = {London},
+ year    = {1991}
+}
+@ARTICLE{buh90,
+ author  = {M. B{\"u}hrer and P. O. Maitre and O. R. Hung and D. R. Stanski},
+ title   = {Electroencephalographic effects of benzodiazepines:
+	Choosing an electroencephalographic parameter to measure the effect of
+	midazolam on the central nervous system},
+ journal = {Clinical Pharmacology and Therapeutics},
+ volume  = {48},
+ pages   = {544--554},
+ year    = {1990}
+}
+@ARTICLE{buh92,
+ author  = {M. B{\"u}hrer and P. O. Maitre and O. R. Hung and W. F.
+			Ebling and S. L. Shafer and D. R. Stanski},
+ title   = {Thiopental pharmacodynamics: {I}. {D}efining the
+		pseudo-steady-state serum concentration--{EEG} effect relationship},
+ journal = {Anesthesiology},
+ volume  = {77},
+ pages   = {226--236},
+ year    = {1992}
+}
+% CCC
+@BOOK{cheney99,
+ author  = {E. Ward Cheney and David R. Kincaid},
+ title   = {Numerical Mathematics and Computing},
+ publisher= {Brooks/Cole Publishing},
+ address = {Pacific Grove, CA},
+ year    = {1999}
+}
+@BOOK{childers78,
+ editor = {D. G. Childers},
+ title = {Modern Spectrum Analysis},
+ publisher = {IEEE Press},
+ address = {New York},
+ year = {1978}
+}
+@ARTICLE{craig89,
+ author  = {I. J. D. Craig and K. J. McNeil},
+ title   = {Quantum simulations of nonlinear optical damping: {A}n exact
+solution for the stochastic differential equations and an
+interpretation of ``spiking''},
+ journal = {Physical Review A},
+ volume  = {39},
+ pages   = {6267--6270},
+ year    = {1989}
+}
+% DDD
+@PHDTHESIS{drummond79,
+ author  = {P. D. Drummond},
+ title   = {Nonequilibrium transitions in quantum-optical systems},
+ school  = {University of Waikato, Hamilton, New Zealand},
+ year    = {1979}
+}
+@ARTICLE{durstewitz00,
+ author  = {Daniel Durstewitz and Jeremy K. Seamans and Terrence J.
+	Sejnowski},
+ title   = {Neurocomputational models of working memory},
+ journal = {Nature Neuroscience Supplement},
+ volume  = {3},
+ pages   = {1184--1191},
+ year    = {2000}
+}
+% EEE
+@ARTICLE{elul72,
+ author = {R. Elul},
+ title = {The genesis of the {EEG}},
+ journal = {International Review of Neurobiology},
+ volume = {15},
+ pages = {227--272},
+ year = {1972}
+}
+% FFF
+@BOOK{fatuzzo67,
+ author = {E. Fatuzzo and W. J. Merz},
+ title = {Ferroelectricity},
+ series = {Selected Topics in Solid State Physics},
+ editor = {E. P. Wohlfarth},
+ volume = {7},
+ publisher = {North-Holland},
+ address = {Amsterdam},
+ year    = {1967}
+}
+@INCOLLECTION{flohr00,
+ author  = {H. Flohr and U. Glade and D. Motzko},
+ title   = {The Neural Correlate of Consciousness and the Mechanisms
+	of General Anaesthesia},
+ editor  = {J. {Schultz am Esch} and J. Scholz and P. H. Tonner},
+ booktitle = {Molecular Pharmacology of Anaesthesia},
+ pages  = {12--24},
+ publisher = {Pabst Science Publishers},
+ address = {Lengerich},
+ year   = {2000}
+}
+@ARTICLE{forster96,
+ author  = {D. Forster},
+ title   = {Is neural noise just a nuisance?},
+ journal = {Science},
+ volume  = {273},
+ pages   = {1812},
+ year    = {1996}
+}
+@ARTICLE{frank99,
+ author  = {T. D. Frank and A. Daffertshofer and P. J. Beck and H. Haken},
+ title   = {Impacts of noise on a field theoretical model of the human
+	brain},
+ journal = {Physica D},
+ volume  = {127},
+ pages   = {233--249},
+ year    = {1999}
+}
+@ARTICLE{franks94,
+ author  = {N. P. Franks and W. R. Lieb},
+ title   = {Molecular and cellular mechanisms of general anaesthesia},
+ journal = {Nature},
+ volume  = {367},
+ pages   = {607--613},
+ year    = {1994}
+}
+@ARTICLE{franks97,
+ author  = {N. P. Franks and W. R. Lieb},
+ title   = {Anaesthetics set their sites on ion channels},
+ journal = {Nature},
+ volume  = {389},
+ pages   = {334--335},
+ year    = {1997}
+}
+@ARTICLE{franks98,
+ author  = {N. P. Franks and R. Dickenson and S. L. M. {d}e Sousa and
+	A. C. Hall and W. R. Lieb},
+ title   = {How does xenon produce anaesthesia?},
+ journal = {Nature},
+ volume  = {396},
+ pages   = {324},
+ year    = {1998}
+}
+@article{freeman67,
+ author = "W. J. Freeman",
+ title = "Analysis of function of cerebral cortex by use of control
+	systems theory",
+ journal = "The Logistics Review",
+ volume = "3",
+ pages = "5--40",
+ year = "1967"
+}
+@Book{freeman75,
+ author  = {W. J. Freeman},
+ title   = {Mass Action in the Nervous System},
+ publisher= {Academic Press},
+ address = {New York},
+ year    = {1975}
+}
+@article{freeman86,
+ author = "W. J. Freeman",
+ title = "Petit mal seizure spikes in olfactory bulb and cortex caused
+	by runaway inhibition after exhaustion of excitation",
+ journal = "Brain Research Reviews",
+ volume = "11",
+ pages = "259--284",
+ year = "1986"
+}
+@Book{frieden00,
+ author  = {B. Roy Frieden},
+ title   = {Physics from Fisher Information: A Unification},
+ publisher= {Cambridge University Press},
+ address = {Cambridge, UK},
+ year    = {2000}
+}
+% GGG
+@ARTICLE{gage85,
+ author  = {P. W. Gage and B. Robertson},
+ title   = {Prolongation of inhibitory postsynaptic currents by pentobarbitone,
+ 	halothane and ketamine in {CA1} pyramidal cels in rat hippocampus},
+ journal = {British Journal of Pharmacology},
+ volume  = {85},
+ pages   = {645--681},
+ year    = {1985}
+}
+@BOOK{gardiner85,
+ author   = {C. W. Gardiner},
+ title    = {Handbook of Stochastic Methods for Physics, Chemistry,
+	and the Natural Sciences},
+ series   = {Springer Series in Synergetics},
+ volume   = {13},
+ publisher= {Springer-Verlag},
+ address  = {Berlin},
+ year     = {1985}
+}
+@BOOK{gardiner00,
+ author   = {C. W. Gardiner and P. Zoller},
+ title    = {Quantum Noise: A Handbook of Markovian and non-Markovian
+	Quantum Stochastic Methods with Applications to Quantum Optics},
+ series   = {Springer Series in Synergetics},
+ publisher= {Springer-Verlag},
+ address  = {Berlin},
+ year     = {2000}
+}
+@BOOK{gibbs85,
+ author   = {H. M. Gibbs},
+ title    = {Optical Bistability: Controlling Light with Light},
+ publisher= {Academic Press},
+ address  = {Orlando},
+ year     = {1985}
+}
+@BOOK{gibbs61,
+ author   = {J. W. Gibbs},
+ title    = {Collected Works},
+ volume   = {I},
+ publisher= {Dover},
+ address  = {},
+ year     = {1961}
+}
+@ARTICLE{gillespie83,
+ author  = {D. T. Gillespie},
+ title   = {A theorem for physicists in the theory of random variables},
+ journal = {American Journal of Physics},
+ volume  = {51},
+ pages   = {520--533},
+ year    = {1983}
+}
+@BOOK{gillespie92,
+ author  = {D. T. Gillespie},
+ title   = {Markov Processes: An Introduction for Physical Scientists},
+ publisher= {Academic},
+ address  = {San Diego},
+ year    = {1992}
+}
+@ARTICLE{gillespie93,
+ author  = {D. T. Gillespie},
+ title   = {Fluctuation and dissipation in {B}rownian motion},
+ journal = {American Journal of Physics},
+ volume  = {61},
+ pages   = {1077--1083},
+ year    = {1993}
+}
+@ARTICLE{gillespie96b,
+ author  = {D. T. Gillespie},
+ title   = {The mathematics of {B}rownian motion and {J}ohnson noise},
+ journal = {American Journal of Physics},
+ volume  = {64},
+ pages   = {225--240},
+ year    = {1996}
+}
+@ARTICLE{gillespie96a,
+ author  = {D. T. Gillespie},
+ title   = {Exact numerical simulation of the {O}rnstein--{U}hlenbeck process
+		and its integral},
+ journal = {Physical Review E},
+ volume  = {54},
+ pages   = {2084--2091},
+ year    = {1996}
+}
+@BOOK{glansdorff74,
+ author   = {P. Glansdorff and I. Prigogine},
+ title    = {Thermodynamic Theory of Structure, Stability, and Fluctuations},
+ publisher= {Wiley--Interscience, John Wiley \& Sons Ltd},
+ address  = {New York},
+ year     = {1974}
+}
+@BOOK{grad65,
+ author   = {I. S. Gradshteyn and I. M. Ryzhik},
+ title    = {Table of Integrals, Series, and Products},
+ publisher= {Academic Press},
+ address  = {New York},
+ year     = {1965}
+}
+@BOOK{graham73,
+ author   = {R. Graham},
+ title    = {Quantum Statistics in Optics and Solid-State Physics},
+ series   = {Springer Tracts in Modern Physics},
+ volume   = {66},
+ publisher= {Springer-Verlag},
+ address  = {New York},
+ year     = {1973}
+}
+@ARTICLE{gregory86,
+ author  = {Thomas K. Gregory and Daniel C. Pettus},
+ title   = {An electroencephalographic processing algorithm
+	specifically intended for analysis of cerebral electrical activity},
+ journal = {Journal of Clinical Monitoring},
+ volume  = {2},
+ pages   = {190--197},
+ year    = {1986}
+}
+@ARTICLE{griffith63,
+ author  = {J. S. Griffith},
+ title   = {On the stability of brain-like structures},
+ journal = {Biophysical Journal},
+ volume  = {3},
+ pages   = {299--308},
+ year    = {1963}
+}
+@BOOK{guedel37,
+ author   = {A. E. Guedel},
+ title    = {Inhalational Anesthesia: A Fundamental Guide},
+ publisher= {Macmillan},
+ address  = {New York},
+ year     = {1937}
+}
+@ARTICLE{guggenheim49,
+ author = {E. A. Guggenheim},
+ journal = {Research},
+ volume = {2},
+ year = {1949}
+}
+% HHH
+@BOOK{haken70,
+ author   = {H. Haken},
+ title    = {Handbuch der Physik},
+ volume   = {XXV/2c},
+ publisher= {Springer-Verlag},
+ address  = {Berlin},
+ year     = {1970}
+}
+@BOOK{haken78,
+ author   = {H. Haken},
+ title    = {Synergetics: An Introduction: Nonequilibrium Phase
+	Transitions and Self-organization in Physics},
+ publisher= {Springer-Verlag},
+ address  = {Berlin},
+ year     = {1978}
+}
+@ARTICLE{halsey70,
+ author  = {M. J. Halsey and E. B. Smith},
+ title   = {Effects of anaesthetics on luminous bacteria},
+ journal = {Nature},
+ volume  = {227},
+ pages   = {1363--1365},
+ year    = {1970}
+}
+@BOOK{hammond01,
+ author   = {C. Hammond},
+ title    = {Cellular and Molecular Neurobiology},
+ publisher= {Academic Press},
+ address  = {Orlando, Florida},
+ year     = {2001}
+}
+@ARTICLE{hodgkin52,
+ author  = {A. L. Hodgkin and A. F. Huxley},
+ title   = {A quantitative description of membrane current and its
+	application to conduction and excitation in nerve},
+ journal = {Journal of Physiology},
+ volume  = {117},
+ pages   = {500--544},
+ year    = {1952}
+}
+@BOOK{huang63,
+ author   = {Kerson Huang},
+ title    = {Statistical Mechanics},
+ publisher= {John Wiley \& Sons, Inc.},
+ address  = {New York},
+ year     = {1963}
+}
+@ARTICLE{hestrin90,
+ author  = {S. Hestrin and R. A. Nicoll and D. J. Perkel and P. Sah},
+ title   = {Analysis of excitatory synaptic action in pyramidal cells
+	using whole-cell recording from rat hippocampal slices},
+ journal = {Journal of Physiology},
+ volume  = {422},
+ pages   = {203--225},
+ year    = {1990}
+}
+% III
+@ARTICLE{ingber82,
+ author  = {L. Ingber},
+ title   = {Statistical mechanics of neocortical interactions:
+      I. Basic formulation},
+ journal = {Physica},
+ volume  = {5D},
+ pages   = {83--107},
+ year    = {1982}
+}
+@ARTICLE{ingber83,
+ author  = {L. Ingber},
+ title   = {Statistical mechanics of neocortical interactions:
+      Dynamics of synaptic modification},
+ journal = {Physical Review A},
+ volume  = {8},
+ pages   = {395--416},
+ year    = {1983}
+}
+@ARTICLE{ingber84,
+ author  = {L. Ingber},
+ title   = {Statistical mechanics of neocortical interactions:
+      Derivation of short-term-memory capacity},
+ journal = {Physical Review A},
+ volume  = {29},
+ pages   = {3346--3358},
+ year    = {1984}
+}
+@ARTICLE{ingber85,
+ author  = {L. Ingber},
+ title   = {Statistical mechanics of neocortical interactions:  Stability
+     and duration of the $7 \pm 2$ rule of short-term-memory capacity},
+ journal = {Physical Review A},
+ volume  = {31},
+ pages   = {1183--1186},
+ year    = {1985}
+}
+@ARTICLE{ingber91,
+ author  = {L. Ingber},
+ title   = {Statistical mechanics of neocortical interactions:
+       A scaling paradigm applied to electroencephalography},
+ journal = {Physical Review A},
+ volume  = {44},
+ pages   = {4017--4060},
+ year    = {1991}
+}
+@ARTICLE{ingber92,
+ author  = {L. Ingber},
+ title   = {Generic mesoscopic neural networks based on statistical mechanics
+      of neocortical interactions},
+ journal = {Physical Review A},
+ volume  = {45},
+ pages   = {2183--2186},
+ year    = {1992}
+}
+@ARTICLE{ingber97,
+ author  = {L. Ingber},
+ title   = {Statistical mechanics of neocortical interactions:
+       Canonical momentum indicators of electroencephalography},
+ journal = {Physical Review E},
+ volume  = {55},
+ pages   = {4578--4592},
+ year    = {1997}
+}
+% JJJ
+@article{jirsa96,
+ author = "V. K. Jirsa and H. Haken",
+ title  = "A field theory of electromagnetic brain activity",
+ journal = "Physical Review Letters",
+ volume = "77",
+ pages  = "960--963",
+ year   = "1996"
+}
+@article{jirsa97,
+ author = "V. K. Jirsa and H. Haken",
+ title  = "A derivation of a macroscopic field theory of the brain from
+	the quasi-microscopic neural dynamics",
+ journal = "Physica D",
+ volume = "99",
+ pages  = "503--526",
+ year   = "1997"
+}
+@ARTICLE{johnson51,
+ author  = {F. H. Johnson and E. A. Flagler},
+ title   = {Activity of narcotised amphibia larvae under hydrostatic
+	pressure},
+ journal = {Journal of Cellular and Comparative Physiology},
+ volume  = {37},
+ pages   = {15},
+ year    = {1951}
+}
+@ARTICLE{johnson70,
+ author  = {F. H. Johnson and K. W. Miller},
+ title   = {Antagonism of pressure and anaesthesia},
+ journal = {Nature},
+ volume  = {228},
+ pages   = {75},
+ year    = {1970}
+}
+@ARTICLE{jones92,
+ author  = {M. V. Jones and P. A. Brooks and N. L. Harrison},
+ title   = {Enhancement of $\gamma$-aminobutyric acid-activated {C}l$^-$
+	currents
+    in cultured rat hippocampal neurones by three volatile anaesthetics},
+ journal = {Journal of Physiology},
+ volume  = {449},
+ pages   = {279--293},
+ year    = {1992}
+}
+@ARTICLE{jevtovic98,
+ author  = {V. Jevtovic-Todorovic and S. M. Todorovic and S. Menneric and
+	S. Powell and K. Dikranian and N. Benshoff and C. F. Zorumski and J.
+	W. Olny},
+ title   = {Nitrous oxide (laughing gas) is an {NMDA} antagonist,
+	neuroprotectant and neurotoxin},
+ journal = {Nature Medicine},
+ volume  = {4},
+ pages   = {460--464},
+ year    = {1998}
+}
+@ARTICLE{jones93,
+ author  = {M. V. Jones and N. L. Harrison},
+ title   = {Effects of volatile anesthetics on the kinetics of
+	inhibitory postsynaptic currents in cultured rat hippocampal neurons},
+ journal = {Journal of Neurophysiology},
+ volume  = {70},
+ pages   = {1339--1349},
+ year    = {1993}
+}
+% KKK
+@INCOLLECTION{kandel91,
+ author  = {E. R. Kandel and J. H. Schwartz},
+ title   = {Directly gated transmission at central synapses},
+ chapter = {11},
+ editor  = {E. R. Kandel and J. H. Schwartz and T. M. Jessell},
+ booktitle = {Principles of Neural Science},
+ pages  = {153--172},
+ publisher = {Prentice-Hall International},
+ address = {London},
+ year   = {1991}
+}
+@ARTICLE{kay81,
+ author  = {S. M. Kay and S. L. Marple},
+ title   = {Spectrum analysis: A modern perspective},
+ journal = {Proceedings of the {IEEE}},
+ volume  = {69},
+ number  = {11},
+ pages   = {1380--1419},
+ year    = {1981}
+}
+@Book{kittel96,
+ author  = {C. Kittel},
+ title   = {Introduction to Solid State Physics},
+ publisher= {Wiley},
+ edition = {7},
+ address = {New York},
+ year    = {1996}
+}
+@BOOK{kleppner78,
+ author   = {D. Kleppner and R. Kolenkow},
+ title    = {An Introduction to Mechanics},
+ publisher= {McGraw-Hill},
+ series   = {International Student Edition},
+ address  = {Singapore},
+ year     = {1978}
+}
+@ARTICLE{koch96,
+ author  = {C. Koch and M. Rapp and I. Segev},
+ title   = {A brief history of time (constants)},
+ journal = {Cerebral Cortex},
+ volume  = {6},
+ pages   = {93--101},
+ year    = {1996}
+}
+@INCOLLECTION{koester91,
+ author  = {J. Koester},
+ title   = {Membrane potential},
+ chapter = {6},
+ editor  = {E. R. Kandel and J. H. Schwartz and T. M. Jessell},
+ booktitle = {Principles of Neural Science},
+ pages  = {81--94},
+ publisher = {Prentice-Hall International},
+ address = {London},
+ year   = {1991}
+}
+@ARTICLE{kuiz98,
+ author  = {K. Kuizenga and C. J. Kalkman and P. J. Hennis},
+ title   = {Quantitative electroencephalographic analysis of the
+		biphasic concentration--effect relationship of propofol in surgical
+		patients during extradural analgesia},
+ journal = {British Journal of Anaesthesia},
+ volume  = {80},
+ pages   = {725--732},
+ year    = {1998}
+}
+@ARTICLE{kuiz01_5drug,
+ author  = {K. Kuizenga and J. M. K. H. Wierda and C. J. Kalkman},
+ title   = {Biphasic {EEG} changes in relation to loss of consciousness
+		during induction with thiopental, propofol, etomidate, midazolam
+		or sevoflurane},
+ journal = {British Journal of Anaesthesia},
+ volume  = {86},
+ pages   = {354--360},
+ year    = {2001}
+}
+@ARTICLE{kuiz01_3propofol,
+ author  = {K. Kuizenga and J. H. Proost and J. M. K. H. Wierda
+		and C. J. Kalkman},
+ title   = {Predictability of processed electroencephalography effects
+		on the basis of pharmacokinetic--pharmodynamic modeling during
+		repeated propofol infusions in patients with extradural analgesia},
+ journal = {Anesthesiology},
+ volume  = {95},
+ pages   = {607--615},
+ year    = {2001}
+}
+@PHDTHESIS{kuiz_thesis,
+ author  = {K. Kuizenga},
+ title   = {Pharmacokinetic pharmacodynamic modelling of {EEG} effects
+	in hypnotic drugs used in anaesthesia},
+ school  = {Groningen University Hospital, Groningen, The Netherlands},
+ year    = {2001}
+}
+% LLL
+@ARTICLE{lemons97,
+ author  = {D. S. Lemons},
+ title   = {Paul Langevin's 1908 paper "On the theory of {B}rownian
+		motion"},
+ journal = {American Journal of Physics},
+ volume  = {65},
+ pages   = {1079--1081},
+ year    = {1997}
+}
+@INCOLLECTION{liley97,
+ author  = {D. T. J. Liley},
+ editor  = { F. L. Silva},
+ title   = {A continuum model of the mammalian alpha rhythm},
+ booktitle = {Spatiotemporal Models in Biological Artificial Systems},
+ pages  = {89--96},
+ publisher = {IOS Press},
+ address = {Amsterdam},
+ year   = {1997}
+}
+@INPROCEEDINGS{liley98,
+ author = {D. T. J. Liley and P. J. Cadusch and J. J. Wright},
+ title = {A continuum theory of electro-cortical activity},
+ meeting = {Computational Neuroscience},
+ booktitle = {},
+ howpublished = {poster},
+ publisher = {California Institute of Technology},
+ address = {Santa Barabara, CA},
+ year = {1998}
+}
+@ARTICLE{liley99,
+ author = {D. T. J. Liley and P. J. Cadusch and J. J. Wright},
+ title = {A continuum theory of electro-cortical activity},
+ journal = {Neurocomputing},
+ volume  = {26--27},
+ pages   = {795--800},
+ year = {1999}
+}
+@article{liley02,
+  author = "D. T. J. Liley and P. J. Cadusch and M. P. Dafilis",
+  title = "A spatially continuous mean field theory of
+	electro-cortical activity",
+  journal = "Network: Computation in Neural Systems",
+  note = "in press",
+  year = "2002"
+}
+@BOOK{lines77,
+ author = {M. E. Lines and A. M. Glass},
+ title = {Principles and Applications of Ferroelectrics and Related
+	Materials},
+ series = {International Series of Monographs on Physics},
+ editor = {W. Marshall and D. H. Wilkinson},
+ publisher = {Clarendon Press},
+ address = {Oxford},
+ year    = {1977}
+}
+@INCOLLECTION{lugiato78,
+ author  = {L. A. Lugiato and R. Bonifacio},
+ editor  = {F. T. Arecchi and R. Bonifacio and M. O. Scully},
+ title   = {Mean field theory of optical bistability and resonance
+	fluorescence},
+ booktitle = {Coherence in Spectroscopy and Modern Physics},
+ series = {NATO Advanced Study Institute, series B},
+ volume = {37},
+ pages  = {85--109},
+ publisher = {Plenum Press},
+ address = {New York},
+ year  = {1978}
+}
+@ARTICLE{lukatch96,
+ author  = {H. S. Lukatch and M. B. MacIver},
+ title   = {Synaptic mechanisms of thiopental-induced alterations in
+	synchronized cortical activity},
+ journal = {Anesthesiology},
+ volume  = {84},
+ pages   = {1425--1434},
+ year    = {1996}
+}
+% MMM
+@ARTICLE{maciver96,
+ author  = {M. B. MacIver and J. W. Mandema and D. R. Stanski and B. H. Bland},
+ title   = {Thiopental uncouples hippocampal and cortical synchronized
+	electroencephalographic activity},
+ journal = {Anesthesiology},
+ volume  = {84},
+ pages   = {1411--1424},
+ year    = {1996}
+}
+@BOOK{Matlab_sig_proc94,
+ author  = {T. P. Krauss and L. Shure and J. N. Little},
+ title   = {Matlab Signal Processing Toolbox User's Guide},
+ publisher= {The Mathworks, Inc},
+ address = {Natick, Mass},
+ year    = {1994}
+}
+@INCOLLECTION{murthy83,
+ author  = {K. P. N. Murthy},
+ title   = {Monte {C}arlo methods: An introduction},
+ editor  = {G. S. Agarwal and S. Dattagupta},
+ booktitle = {Stochastic Processes Formalism and Applications},
+ series = {Lecture Notes in Physics, no. 184},
+ pages  = {116--121},
+ publisher = {Springer--Verlag},
+ address = {Berlin},
+ year   = {1983}
+}
+% NNN
+@BOOK{newland93,
+ author  = {D. E. Newland},
+ title   = {Random Vibrations, Spectral and Wavelet Analysis},
+ publisher= {Addison Wesley Longman},
+ edition  = {3},
+ address = {New York},
+ year    = {1993}
+}
+@ARTICLE{nunez74,
+ author  = {P. L. Nunez},
+ title   = {The brain wave function: A model for the {EEG}},
+ journal = {Mathematical Biosciences},
+ volume  = {21},
+ pages   = {279--297},
+ year    = {1974}
+}
+@BOOK{nunez81,
+ author  = {P. L. Nunez},
+ title   = {Electric Fields of the Brain: The Neurophysics of {EEG}},
+ publisher= {Oxford University Press},
+ address = {New York},
+ year    = {1981}
+}
+% OOO
+% PPP
+% QQQ
+@ARTICLE{quiroga00,
+ author  = {R. Q. Quiroga and J. Arnhold and K. Lehnertz and P. Grassberger},
+ title   = {Kulback--{L}eibler and renormalized entropies: Applications
+to electroencephalograms of epilepsy patients},
+ journal = {Physical Review E},
+ volume  = {62},
+ pages   = {8380--8386},
+ year    = {2000}
+}
+% RRR
+@BOOK{reichl80,
+ author  = {L. E. Reichl},
+ title   = {A Modern Course in Statistical Physics},
+ publisher= {University of Texas Press},
+ address = {Austin},
+ year    = {1980}
+}
+@article{rezek98,
+ author = {I. A. Rezek and S. J. Roberts},
+ title = {Stochastic complexity measures for physiological signal analysis},
+ journal = {IEEE Transactions on Biomedical Engineering},
+ volume = {45},
+ pages = {1186--1191},
+ year = {1998}
+}
+@BOOK{risken84,
+ author  = {H. Risken},
+ title   = {The Fokker--Planck Equation: Methods of Solution and
+		Applications},
+ series = {Springer Series in Synergetics},
+ volume = {18},
+ publisher = {Springer-Verlag},
+ address = {Berlin},
+ year    = {1984}
+}
+@ARTICLE{rob97,
+ author  = {P. A. Robinson and C. J. Rennie and J. J. Wright},
+ title   = {Propagation and stability of waves of electrical activity
+	in the cerebral cortex},
+ journal = {Physical Review E},
+ volume  = {56},
+ pages   = {826--840},
+ year    = {1997}
+}
+@ARTICLE{rob98,
+ author  = {P. A. Robinson and C. J. Rennie and J. J. Wright and P. D. Bourke},
+ title   = {Steady states and global dynamics of electrical activity
+	in the cerebral cortex},
+ journal = {Physical Review E},
+ volume  = {58},
+ pages   = {3557--3571},
+ year    = {1998}
+}
+@ARTICLE{rotterdam82,
+ author  = {A. Rotterdam and F. H. Lopes da Silva and J. van der Ende
+	and M. A. Viergever and A. J. Hermans},
+ title   = {A model of the spatio-temporal characteristics of the
+	alpha rhythm},
+ journal = {Bull. Math. Biol.},
+ volume  = {44},
+ pages   = {283--305},
+ year    = {1982}
+}
+% SSS
+@BOOK{schuss80,
+ author = {Z. Schuss},
+ title = {Theory and Applications of Stochastic Differential Equations},
+ publisher = {John Wiley \& Sons},
+ address = {New York},
+ year = {1980}
+}
+@BOOK{shannon49,
+ author = {C. E. Shannon and W. Weaver},
+ title = {The Mathematical Theory of Information},
+ publisher = {University of Illinois Press},
+ address = {Urbana, Illinois},
+ year = {1949}
+}
+@BOOK{shannon62,
+ author = {C. E. Shannon and W. Weaver},
+ title = {The Mathematical Theory of Communication},
+ publisher = {University of Illinois Press},
+ address = {Urbana, Illinois},
+ year = {1962}
+}
+@INCOLLECTION{shenoy83,
+ author  = {S. R. Shenoy},
+ title   = {Analogue of optical bistability in driven Josephson
+	junctions},
+ editor  = {G. S. Agarwal and S. Dattagupta},
+ booktitle = {Stochastic Processes Formalism and Applications},
+ series = {Lecture Notes in Physics, no. 184},
+ pages  = {238--244},
+ publisher = {Springer--Verlag},
+ address = {Berlin},
+ year   = {1983}
+}
+@BOOK{silbernagl96,
+ author = {S. Silbernagl and A. Despopoulos},
+ title = {Sesam Atlas {v}an {d}e Fysiologie},
+ publisher = {Bosch \& Keuning},
+ address = {Baarn, Germany},
+ year = {1996}
+}
+@INCOLLECTION{silb95,
+ author = {R. B. Silberstein},
+ title = {Neuromodulation of neocortical dynamics},
+ booktitle = {Neocortical Dynamics and Human {EEG} Rhythms},
+ publisher = {Oxford University Press},
+ editor = {P. L. Nunez},
+ series = {},
+ address = {New York, NY},
+ pages = {591--622},
+ year = {1995}
+}
+@BOOK{sloane93,
+ editor  = {N. J. A. Sloane and A. D. Wyner},
+ title = {Claude Elwood Shannon: Collected papers},
+ pages  = {5--83},
+ publisher = {IEEE Press},
+ address = {New York},
+ year   = {1993}
+}
+@BOOK{spiegel68,
+ author   = {M. R. Spiegel},
+ title    = {Mathematical Handbook of Formulas and Tables},
+ series   = {Schaum's Outline Series},
+ publisher= {McGraw-Hill},
+ address  = {New York},
+ year     = {1968}
+}
+@ARTICLE{squires84,
+ author  = {R. F. Squires and E. Saederup and J. N. Crawley and P.
+	Skolnick and S. M. Paul},
+ title   = {Convulsant potencies of tetrazoles are highly correlated
+	with actions on GABA/benzodiazepine/picrotoxin receptor complexes in
+	brain},
+ journal = {Life Sci.},
+ volume  = {35},
+ pages   = {1439--1444},
+ year    = {1984}
+}
+@ARTICLE{steriade93,
+ author  = {M. Steriade and D. A. McCormick and T. J. Sejnowski},
+ title   = {Thalamocortical oscillations in the sleeping and aroused brain},
+ journal = {Science},
+ volume  = {262},
+ pages   = {679--685},
+ year    = {1993}
+}
+@MASTERSTHESIS{msr79,
+ author  = {B. Moira L. Steyn-Ross},
+ title   = {Laser excitation of vibrational modes of molecules},
+ school  = {University of Waikato, Hamilton, New Zealand},
+ year    = {1979}
+}
+@ARTICLE{SR92,
+ author  = {C. D. A. Steyn-Ross and D. G. Ivey},
+ title   = {Frames Of Reference revisited},
+ journal = {American Journal of Physics},
+ volume  = {60},
+ number  = {12},
+ pages   = {1069--1085},
+ year    = {1992}
+}
+@ARTICLE{SR99,
+ author  = {D. M. L. Steyn-Ross and D. A. Steyn-Ross and J. W. Sleigh and
+	D. T. J. Liley},
+ title   = {Theoretical electroencephalogram stationary spectrum for a
+    white-noise-driven cortex: Evidence for a general anesthetic-induced
+    phase transition},
+ journal = {Physical Review E},
+ volume  = {60},
+ pages   = {7299--7311},
+ year    = {1999}
+}
+@ARTICLE{SR01_msr,
+ author  = {E. M. L. Steyn-Ross and D. A. Steyn-Ross and J. W. Sleigh and
+	L. C. Wilcocks},
+ title   = {Toward a theory of the general anesthetic-induced phase
+	transition of the cerebral cortex: I. {A} statistical mechanics analogy},
+ journal = {Physical Review E},
+ volume  = {64},
+ pages   = {011917},
+ year    = {2001}
+}
+@ARTICLE{SR01_asr,
+ author  = {F. D. A. Steyn-Ross and M. L. Steyn-Ross and L. C. Wilcocks and
+	J. W. Sleigh},
+ title   = {Toward a theory of the general anesthetic-induced phase
+	transition of the cerebral cortex: {II}. {S}tochastic numerical simulations,
+    spectral entropy, and correlations},
+ journal = {Physical Review E},
+ volume  = {64},
+ pages   = {011918},
+ year    = {2001}
+}
+@incollection{stock75,
+ author = "J. J. Stockard and R. G. Bickford",
+ title = "The neurophysiology of anaesthesia",
+ booktitle = "A Basis and Practise of Neuroanaesthesia II",
+ publisher = "Excerpta Medica",
+ address = "Amsterdam",
+ pages = "3--46",
+ editor = "E. Gordan",
+ year = "1975"
+}
+@ARTICLE{stullken77,
+ author  = {E. H. {Stullken Jr.} and J. H. Milde and J. D. Michenfelder
+	and J. H. Tinker},
+ title   = {The nonlinear responses of cerebral metabolism to low
+	concentrations of halothane, enflurane, isofluorine, and thiopental},
+ journal = {Anesthesiology},
+ volume  = {46},
+ pages   = {28--34},
+ year    = {1977}
+}
+% TTT
+@ARTICLE{thomas98,
+ author  = {Jennifer D. Thomas and Edward P. Riley},
+ title   = {Fetal alcohol syndrome: Does alcohol withdrawal play a role?},
+ journal = {Alcohol Health and Research World},
+ volume  = {22},
+ pages   = {47--53},
+ year    = {1998}
+}
+@book{tipler90,
+ author = {Paul A. Tipler},
+ title = {Physics for Scientists and Engineers},
+ volume = {1},
+ edition = {3},
+ publisher = {Worth},
+ address = {New York},
+ year = {1990}
+}
+@book{tuck88,
+ author = "H. C. Tuckwell",
+ title = "Introduction to Theoretical Neurobiology: Linear Cable
+	Theory and Dendritic Structure",
+ volume = "1",
+ publisher = "Cambridge University Press",
+ address = "Cambridge",
+ year = "1988"
+}
+@book{tuck88b,
+ author = "H. C. Tuckwell",
+ title = "Introduction to Theoretical Neurobiology: Nonlinear and
+	Stochastic Theories",
+ volume = "2",
+ publisher = "Cambridge University Press",
+ address = "Cambridge",
+ year = "1988"
+}
+@Book{myint73,
+ author  = {Tyn Myint-U},
+ title   = {Partial Differential Equations of Mathematical Physics},
+ publisher= {American Elsevier Publishing Company},
+ address = {New York},
+ year    = {1973}
+}
+% UUU
+@ARTICLE{ueda65,
+ author  = {I. Ueda},
+ title   = {Effects of diethyl ether and halothane on firefly
+	luciferin bioluminescence},
+ journal = {Anesthesiology},
+ volume  = {26},
+ pages   = {603--606},
+ year    = {1965}
+}
+@ARTICLE{ueda01,
+ author  = {I. Ueda},
+ title   = {Molecular mechanisms of anesthesia},
+ journal = {Keio Journal of Medicine},
+ volume  = {50},
+ pages   = {20--25},
+ year    = {2001}
+}
+% VVV
+@Book{vanderzeil68,
+ author  = {A. {van der} Zeil},
+ title   = {Solid State Physical Electronics},
+ publisher= {Prentice-Hall},
+ edition = {2},
+ address = {London},
+ year    = {1968}
+}
+@Book{vanKampen81,
+ author  = {N. G. {van Kampen}},
+ title   = {Stochastic Processes in Physics and Chemistry},
+ publisher= {North-Holland},
+ address = {Amsterdam},
+ year    = {1981}
+}
+@ARTICLE{viertio00,
+ author = {Hanna E. Vierti{\"o}-Oja and R. Drachman-Mertsalmi and
+	V. J{\"a}ntti and P. Meril{\"a}inen and R. Remes and
+	A. Selj{\"a}nper{\"a} and M. S{\"a}rkel{\"a} and P. Talja and
+	H. Tolvanen-Laakso and J. Tuukkanen and A. Yli-Hankala},
+ title = {New method to determine depth of anesthesia from {EEG} measurements},
+ journal = {Journal of Clinical Monitoring and Computing},
+ volume = {16},
+ pages = {60},
+ year = {2000}
+}
+@ARTICLE{viertio00a,
+ author = {Elizabeth Douglas},
+ title = {Quest for depth-of-anesthesia monitor takes a major twist},
+ journal = {Anesthesiology News},
+ volume = {26},
+ pages = {1,8},
+ year = {2000}
+}
+@ARTICLE{viertio00b,
+ author = {Hanna E. Vierti{\"o}-Oja and V. J{\"a}ntti and P. Talja and
+    H. Tolvanen-Laakso and A. Yli-Hankala},
+ title = {Fractal spectrum, bispectrum, complexity, and entropy of {EEG}
+		during anesthesia},
+ journal = {European Journal of Anaesthesiology},
+ volume = {17},
+ pages = {83},
+ year = {2000}
+}
+% WWW
+@INCOLLECTION{wade98,
+ editor   = {Nicholas Wade},
+ author   = {Philip J. Hilts},
+ title    = {The making of memories},
+ booktitle= {The Science Times Book of the Brain},
+ publisher= {The Lyons Press},
+ series   = {},
+ volume   = {},
+ pages    = {87},
+ year     = {1998}
+}
+@ARTICLE{white70,
+ author  = {D. C. White and C. R. Dundas},
+ title   = {The effect of anaesthetics on emission of light by
+	luminous bacteria},
+ journal = {Nature},
+ volume  = {226},
+ pages   = {456--458},
+ year    = {1970}
+}
+@BOOK{wiberg71,
+ author   = {Donald M. Wiberg},
+ title    = {State Space and Linear Systems},
+ series   = {Schaum's Outline Series},
+ publisher= {McGraw-Hill},
+ address  = {New York},
+ year     = {1971}
+}
+@MASTERSTHESIS{wilcocks01,
+ author  = {Lara C. Wilcocks},
+ title   = {Investigation of a stochastic model of the electrical
+	behaviour of the cerebral cortex},
+ school  = {University of Waikato, Hamilton, New Zealand},
+ year    = {2001}
+}
+@ARTICLE{wilson72,
+ author  = {H. R. Wilson and J. D. Cowan},
+ title   = {Excitatory and inhibitory interactions in localized
+	populations of model neurons},
+ journal = {Biophysical Journal},
+ volume  = {12},
+ pages   = {1--24},
+ year    = {1972}
+}
+@ARTICLE{wilson73,
+ author = {H. R. Wilson and J. D. Cowan},
+ title = {A mathematical theory of the functional dynamics of cortical
+	and thalamic nervous tissue},
+ journal = {Kybernetik},
+ volume = {13},
+ pages = {55--80},
+ year = {1973}
+}
+@ARTICLE{wright96,
+ author  = {J. J. Wright and D. T. J. Liley},
+ title   = {Dynamics of the brain at global and microscopic scales:
+	Neural networks and the {EEG}},
+ journal = {Behavioral and Brain Science},
+ volume  = {19},
+ pages   = {285--316},
+ year    = {1996}
+}
+%gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+%gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+%gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg

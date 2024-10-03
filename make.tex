@@ -1,0 +1,302 @@
+% make.tex
+% Demonstration root file for building a LaTeX thesis
+% Modified from ASR's 1999 mini.tex thesis builder
+% 16-Jan-2009 ASR: Trimmed file down to a bare minimum template
+
+\documentclass[a4paper,12pt,normalbib]{SLTCthesis}
+
+\usepackage{graphicx,amsmath,amssymb,dcolumn,xspace,euscript}
+
+\usepackage{geometry}
+\geometry{
+width=16cm,
+height=24.5cm,
+top=3cm,
+headheight=14pt,
+bindingoffset=2cm
+}
+
+\usepackage{cite}
+%\usepackage{wrapfig,float,floatflt}
+\usepackage{verbatim}
+\usepackage{array}
+\usepackage{calc}
+\usepackage{url}
+\usepackage{pdfpages}
+\usepackage{enumitem}
+
+\usepackage{rotating}
+\usepackage{pdflscape}
+\usepackage{pgfgantt}
+\usepackage{xcolor}
+\usepackage[utf8]{inputenc}
+
+\definecolor{barblue}{RGB}{153,204,254}
+\definecolor{groupblue}{RGB}{51,102,254}
+\definecolor{linkred}{RGB}{165,0,33} 
+
+
+
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+\lhead[\fancyplain{}{\bfseries\thepage}]%
+      {\fancyplain{}{\bfseries\rightmark}}
+\rhead[\fancyplain{}{\bfseries\leftmark}]%
+      {\fancyplain{}{\bfseries\thepage}}
+
+\lfoot[\fancyplain{}{}]%
+      {\fancyplain{}{}}
+\rfoot[\fancyplain{}{}]%
+      {\fancyplain{}{}}
+\cfoot{}
+
+\newenvironment{myverbatim}[1]%
+	{\linespread{0.9} \verbatiminput{#1}} 
+	{}
+\newenvironment{mytoc}%
+	{\linespread{0.9} \verbatiminput{mytoc.tex}} 
+	{}
+
+\input{ASR.tex}
+\newcolumntype{.}{D{.}{.}{-1}}	% dcolumn: align on decimal point
+
+%--------------------------
+% Fix inter-line spacing when using the \intertext command by
+% eliminating the \vskips either side of the \intertext argument.
+% ASR: 8-Aug-2000
+
+\makeatletter
+\def\intertext{\@amsmath@err{\Invalid@@\intertext}\@eha}
+\def\intertext@{%
+  \def\intertext##1{%
+    \ifvmode\else\\\@empty\fi
+    \noalign{%
+%     \penalty\postdisplaypenalty\vskip\belowdisplayskip%
+      \penalty\postdisplaypenalty%
+      \vbox{\normalbaselines
+        \ifdim\linewidth=\columnwidth
+        \else \parshape\@ne \@totalleftmargin \linewidth
+        \fi
+        \noindent##1\par}%
+%     \penalty\predisplaypenalty\vskip\abovedisplayskip%
+      \penalty\predisplaypenalty
+   }%
+}}
+\makeatother
+%--------------------------
+
+\newcommand{\clearemptydoublepage}{\newpage{\pagestyle{empty}\cleardoublepage}}
+
+\newcommand{\halothane}{CF$_3\cdot$CHClBr\xspace}
+\newcommand{\cyclopropane}{C$_3$H$_6$\xspace}
+\newcommand{\nitrousoxide}{N$_2$O\xspace}
+\newcommand{\chloroform}{CHCl$_3$\xspace}
+\newcommand{\ether}{CH$_3\cdot$CH$_2\cdot$O$\cdot$CH$_2\cdot$ CH$_3$\xspace}
+\newcommand{\chloride}{Cl$^-$\xspace}
+\newcommand{\sodium}{Na$^+$\xspace}
+\newcommand{\potassium}{K$^+$\xspace}
+\newcommand{\calcium}{Ca$^{2+}$\xspace}
+\newcommand{\magnesium}{Mg$^{2+}$\xspace}
+\newcommand{\GABAA}{GABA$_{\text{A}}$\xspace}
+\newcommand{\NmOne}{N\!-\!1}
+\newcommand{\muV}{$\mu$V}
+\newcommand{\CMR}{$\text{CMR}_{\text{O}_2}$\xspace}
+% \newcommand{\ul}[1]{\underline{#1}}
+\newcommand{\dul}[1]{\underline{\underline{#1}}}
+\newcommand{\asterisk}{\mbox{\textasteriskcentered}}
+\newcommand{\bolddot}{\boldsymbol{\cdot}}
+\newcommand{\boldLambda}{\mbox{\boldmath$\Lambda$}}
+\newcommand{\boldGamma}{\mbox{\boldmath$\Gamma$}}
+\newcommand{\boldsigma}{\mbox{\boldmath$\sigma$}}
+\newcommand{\bolddelta}{\mbox{\boldmath$\delta$}}
+\newcommand{\opentriangle}{\boldsymbol{\vartriangle}}
+\newcommand{\opencirc}{\boldsymbol{\circ}}
+\newcommand{\solidcirc}{\bullet}
+
+\newcommand{\Eq}[1]{Eq.~(\ref{eq:#1})}
+\newcommand{\Eqs}[1]{Eqs~(\ref{eq:#1})}
+\newcommand{\Eqn}[1]{Equation~(\ref{eq:#1})}
+\newcommand{\Fig}[1]{Fig.~\ref{fg:#1}}
+\newcommand{\Figure}[1]{Figure~\ref{fg:#1}}
+
+\newcommand{\closeup}{\vspace{-3ex}} % for displayed math eqns
+\newcommand{\close}{\vspace{-5ex}}
+\newcommand{\closei}{\vspace{-1ex}}
+\newcommand{\closeii}{\vspace{-2ex}}
+
+\newcommand{\etal}{\textit{et al.\xspace}}
+\newcommand{\etalia}{\textit{et al}}
+
+\newcommand{\Dh}{\Delta h}
+
+\newcommand{\eq}{\:=\:}
+\newcommand{\aeq}{\:&=\:}
+\newcommand{\aaeq}{\:&&=\:}
+\newcommand{\EQ}{\:\equiv\:}
+\newcommand{\aEQ}{\:&\equiv\:}
+\newcommand{\aaEQ}{\:&&\equiv\:}
+
+\newcommand{\Approx}{\:\approx\:}
+\newcommand{\TO}{\:\to\:}
+% \renewcommand{\ln}{\log_e}
+\newcommand{\RLH}{\:\rightleftharpoons\:}
+\newcommand{\LRA}{\:\longrightarrow\:}
+\newcommand{\lLRA}{\:\longleftrightarrow\:}
+\newcommand{\LLRA}{\:\Longleftrightarrow\:}
+\newcommand{\aLRA}{\:&\longrightarrow\:}
+
+\def\SKIP{\ifnum 0=1}
+\def\NOSKIP{\ifnum 1=1}
+\let\ENDSKIP=\fi
+
+\newcommand{\by}{\ensuremath{\times}}
+\newcommand{\Matlab}{\textsc{Matlab}\xspace}
+
+\newcommand{\omegalim}{{\omega_{\text{lim}}}}
+\newcommand{\invN}{\textstyle \frac{1}{N}}
+\newcommand{\betao}{\beta_{\mathrm{o}}}
+\newcommand{\Io}{I_{\mathrm{o}}}
+\newcommand{\he}{h_{e}}
+\newcommand{\hi}{h_{i}}
+\newcommand{\dhe}{\delta h_e}
+\newcommand{\dhi}{\delta h_i}
+\newcommand{\hei}{h_{e,i}}
+\newcommand{\rms}{\text{rms}}
+\newcommand{\heRms}{\he^{\text{rms}}}
+\newcommand{\hiRms}{\hi^{\text{rms}}}
+\newcommand{\heiRms}{h_{ei}^{\text{rms}}}
+\newcommand{\heipmRms}{h_{ei}^{\pm\text{rms}}}
+\newcommand{\heHatRms}{\widetilde{h}_e^{\text{rms}}}
+\newcommand{\hiHatRms}{\widetilde{h}_i^{\text{rms}}}
+\newcommand{\heiHatRms}{\widetilde{h}_{ei}^{\text{rms}}}
+\newcommand{\heHat}{\hat{h}_e}
+\newcommand{\hiHat}{\hat{h}_i}
+
+\newcommand{\Iee}{I_{ee}(\he)}
+\newcommand{\Iei}{I_{ei}(\he)}
+\newcommand{\Iie}{I_{ie}(\hi)}
+\newcommand{\Iii}{I_{ii}(\hi)}
+
+\newcommand{\psiee}{\psi_{ee}(\he)}
+\newcommand{\psiei}{\psi_{ei}(\hi)}
+\newcommand{\psiie}{\psi_{ie}(\he)}
+\newcommand{\psiii}{\psi_{ii}(\hi)}
+
+\newcommand{\Jee}{J_{ee}}
+\newcommand{\Jei}{J_{ei}}
+\newcommand{\Jie}{J_{ie}}
+\newcommand{\Jii}{J_{ii}}
+
+\newcommand{\phie}{\phi_{e}(\he)}
+\newcommand{\phii}{\phi_{i}(\he)}
+\newcommand{\Phie}{\Phi_{e}}
+\newcommand{\Phii}{\Phi_{i}}
+
+\newcommand{\pee}{p_{ee}}
+\newcommand{\pei}{p_{ei}}
+\newcommand{\pie}{p_{ie}}
+\newcommand{\pii}{p_{ii}}
+\newcommand{\pjk}{p_{jk}}
+\newcommand{\peeAv}{\langle p_{ee} \rangle}
+\newcommand{\peiAv}{\langle p_{ei} \rangle}
+\newcommand{\pieAv}{\langle p_{ie} \rangle}
+\newcommand{\piiAv}{\langle p_{ii} \rangle}
+\newcommand{\pjkAv}{\langle p_{jk} \rangle}
+
+\newcommand{\geRest}{g_{e}^{\mathrm{rest}}}
+\newcommand{\giRest}{g_{i}^{\mathrm{rest}}}
+\newcommand{\heRest}{h_{e}^{\mathrm{rest}}}
+\newcommand{\hiRest}{h_{i}^{\mathrm{rest}}}
+\newcommand{\heiRest}{h_{e,i}^{\mathrm{rest}}}
+\newcommand{\heRev}{h_{e}^{\mathrm{rev}}}
+\newcommand{\hiRev}{h_{i}^{\mathrm{rev}}}
+\newcommand{\taue}{\tau_{e}}
+\newcommand{\taui}{\tau_{i}}
+\newcommand{\gamme}{\gamma_{e}}
+\newcommand{\gammi}{\gamma_{i}}
+\newcommand{\gammiBar}{\overline{\gammi}}
+\newcommand{\gammionLam}{\frac{\gammi}{\lambda}}
+\newcommand{\Lee}{\Lambda_{ee}}
+\newcommand{\Lei}{\Lambda_{ei}}
+\newcommand{\Lie}{\Lambda_{ie}}
+\newcommand{\Lii}{\Lambda_{ii}}
+\newcommand{\Neeb}{N_{ee}^{\beta}}
+\newcommand{\Neib}{N_{ei}^{\beta}}
+\newcommand{\Nieb}{N_{ie}^{\beta}}
+\newcommand{\Niib}{N_{ii}^{\beta}}
+\newcommand{\Neea}{N_{ee}^{\alpha}}
+\newcommand{\Neia}{N_{ei}^{\alpha}}
+\newcommand{\Ge}{G_e}
+\newcommand{\Gi}{G_i}
+\newcommand{\ddt}{\frac{d}{dt}}
+\newcommand{\col}[2]{\left[{#1 \atop #2} \right]}
+\newcommand{\Det}[1]{\text{Det}\!\left( #1 \right)}
+\newcommand{\Tr}[1]{\text{Tr}\!\left( #1 \right)}
+\newcommand{\var}[1]{\text{var}\!\left( #1 \right)}
+
+\newcommand{\euR}{{\EuScript{R}}}
+\newcommand{\euS}{{\EuScript{S}}}
+\newcommand{\Se}{{\EuScript{S}}_{e}(\he)}
+\newcommand{\Si}{{\EuScript{S}}_{i}(\hi)}
+\newcommand{\Semax}{{\EuScript{S}}_e^{\max}}
+\newcommand{\Simax}{{\EuScript{S}}_i^{\max}}
+
+
+%Laplace transform L
+\newcommand{\LapL}{\mathscr{L}}
+\usepackage{mathrsfs}
+
+
+%\includeonly{titlepage,abstract,preface,acronyms,ch1,ch2,ch3,ch4,ch5,ch6,ch7,ch8,ch9,ch10,appendixA,appendixB}
+
+% \includeonly{titlepage,abstract,preface,acronyms,ch1}
+
+\begin{document}
+
+\include{titlepage}
+%
+\pagenumbering{roman}
+%
+\include{abstract}
+%
+%\clearpage
+%\include{acknowledgements}
+%
+\tableofcontents 
+%
+\addcontentsline{toc}{chapter}{List of Figures}
+\addcontentsline{toc}{chapter}{List of Tables}
+\listoffigures
+\begingroup
+\let\clearpage\relax
+\listoftables
+\endgroup
+
+%
+\clearpage
+\include{acronyms}
+                                                                                                                           
+
+
+ \setcounter{page}{0}
+%
+\pagenumbering{arabic} % sets page# = 1
+\clearemptydoublepage
+\include{ch1_sample}  % contains the 
+\include{ch2_sample}  % 
+\include{ch3_sample}  % 
+\include{ch4_sample}  % 
+\include{ch5_sample}  % 
+\include{ch6_sample}  % 
+
+\clearpage									% needed to get page no. 
+\addcontentsline{toc}{chapter}{References}  % in TOC correct
+\bibliographystyle{IEEEtran}
+\bibliography{thesis_bib}
+
+\include{appendixA}  % 
+
+\end{document}
+

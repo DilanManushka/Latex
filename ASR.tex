@@ -1,0 +1,89 @@
+% ASR.tex
+
+\def\SKIP{\ifnum 0=1}
+\def\NOSKIP{\ifnum 1=1}
+\let\ENDSKIP=\fi
+
+% \newcommand{}{}
+
+\newcommand{\FIGS}{/home/asr/tex/thesis2/figs}
+\newcommand{\HERE}{\textsf{\fbox{\bfseries $\Longleftarrow$ HERE!}}}
+
+% Defns to produce JGR-style tables (this arithmetic should be
+% generalised for arbitrary line spacing!)  See file 'ta5' for an
+% 5-column table template example.
+
+% settings for 11-point font:
+\NOSKIP
+% \def\tableline{\\[-11pt] \hline \\[-9pt]}
+\def\tableline{\\[-10pt] \hline \\[-9pt]}
+% \def\tablelinetop{\\[-5.5pt]\tableline}
+\def\tableDline{\\[-5.5pt]\hline\hline\\[-8pt]}
+\def\headvspA{\\[-19pt]}	% vert spacing above & below midline ruling
+\def\headvspB{\\[-0pt]}
+\ENDSKIP
+
+% settings for 12-point font:
+\SKIP
+\def\tableline{\\[-12pt] \hline \\[-10pt]}
+\def\tablelinetop{\\[-6pt]\tableline}
+\def\headvspA{\\[-22pt]}	% vert spacing above & below midline ruling
+\def\headvspB{\\[-1pt]}
+\ENDSKIP
+
+
+%------------------------------------------------------------------------
+% Cortical defns
+
+
+
+%------------------------------------------------------------------------
+% Remote sensing defns
+
+\newcommand{\JGR}{Journal of Geophysical Research}
+\newcommand{\RSE}{Remote Sensing of the Environment}
+\newcommand{\IJRS}{International Journal of Remote Sensing}
+
+\newcommand{\micron}{$\mu$m}
+
+\def\deg{\hbox{$^\circ$}}
+\def\degC{\mbox{$\deg$\rm{C}}}
+
+\def\Tx{\mbox{$T_x$}}
+\def\Ts{\mbox{$T_s$}}
+\def\Tc{\mbox{$T_c$}}
+\def\Tair{\mbox{$T_{\rm air}$}}
+
+
+\def\Tprice{\mbox{$T_{\rm Price}$}}
+\def\BT{\mbox{\rm BT}}
+
+\def\invcm{\mbox{${\rm cm}^{-1}$}}
+\def\sqkm{\mbox{${\rm km}^2$}}
+\def\sqm{\mbox{${\rm m}^2$}}
+
+\def\epsx{\mbox{$\varepsilon_x$}}
+\def\eps{\mbox{$\varepsilon$}}
+\def\epsreq{\mbox{$\eps_{\rm req}$}}
+
+\def\SST{\mbox{\rm SST}}
+
+\newcommand{\mc}[2]{\multicolumn{#1}{c}{#2}}
+% \def\mc#1#2{\multicolumn{#1}{c}{#2}}
+
+\newcommand{\ul}[1]{\underline{#1}}
+
+\newcommand{\rhoWV}{\rho_{\text{wv}}}
+\newcommand{\rhoAir}{\rho_{\text{air}}}
+\newcommand{\Rair}{R_{\text{air}}}
+\newcommand{\Rwv}{R_{\text{wv}}}
+\newcommand{\Mair}{M_{\text{air}}}
+\newcommand{\Mwv}{M_{\text{wv}}}
+\newcommand{\Tw}{T_{\text{w}}}
+\newcommand{\cpair}{c_{\text{p,air}}}
+\newcommand{\cpwv}{c_{\text{p,wv}}}
+\newcommand{\mWV}{m_{\text{wv}}}
+\newcommand{\ma}{m_{\text{a}}}
+\newcommand{\DeltamWV}{\Delta\mWV}
+\newcommand{\Lice}{L_{\text{ice}}}
+

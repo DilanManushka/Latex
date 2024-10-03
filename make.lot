@@ -1,0 +1,14 @@
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {1.1}{\ignorespaces Typical domestic ``instant"-water heating problem specifications}}{6}
+\contentsline {table}{\numberline {1.2}{\ignorespaces Energy storage devices comparison}}{7}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces Typical domestic delayed hot water problem specifications}}{15}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Comparison of standalone SC and battery performance based on typical SCATMA power requirements}}{36}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Maxwell technologies D-cell and K2 series supercapacitor stand-alone time constant based on datasheet nominal capacitance and ESR values}}{51}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Comparison of capacitor charger types }}{58}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Capacitor charger types comparison for a 100\nobreakspace {}F, 10\nobreakspace {}V SC bank with $R$ = 250\nobreakspace {}m$\Omega $. Current limit is kept blank for sources which can deliver much higher currents than required. For the 4$^\text {th}$\nobreakspace {}and\nobreakspace {}5$^\text {th}$ rows $ m^* = 1.375$}}{58}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Charging a capacitor from a voltage source at capacitor rated voltage through a resistive path. Capacitor takes $5RC$ to reach $0.993\tmspace +\thinmuskip {.1667em}V_C$.}}{61}
+\addvspace {10\p@ }
+\addvspace {10\p@ }

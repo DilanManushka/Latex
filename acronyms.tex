@@ -1,0 +1,53 @@
+
+\chapter*{Acronyms and Abbreviations}
+\addcontentsline{toc}{chapter}{Acronyms and Abbreviations}
+%----------------------------------------------------------------
+% Set width of left column (the acronyms) to appropriate value
+
+\newcommand{\WidestWord}{AP5, APV}  % <<-- longest word in left col
+
+\newlength{\tmpleft}
+\settowidth{\tmpleft}{\WidestWord}
+
+% Compute appropriate width for right column
+\newlength{\tmpright}
+\setlength{\tmpright}{\linewidth - \tabcolsep - \tmpleft}
+%----------------------------------------------------------------
+
+\begin{tabular*}{\linewidth}{p{\the\tmpleft}p{\the\tmpright}}
+%
+1D, 2D & one-dimensional, two-dimensional \\
+AMPA   & $\alpha$-amino-3-hydroxy-5-methyl-4 isoxazole propionic acid
+	(a neurotransmitter associated with the fast-decaying ``early''  
+	current in the excitatory postsynapse; cf. NMDA)\\
+AP5, APV    & 2-amino-5-phosphonovalerate (an NMDA-blocking agent)\\
+CMR & cerebral metabolic rate \\
+DE	& differential equation\\
+ECoG   & electrocorticogram (brain activity recorded via electrodes
+	attached directly to the cerebral cortex; cf. EEG)\\
+EEG    & electroencephalogram (brain activity recorded via scalp
+	electrodes; cf. ECoG)\\
+EPSC   & excitatory postsynaptic current \\
+EPSP   & excitatory postsynaptic potential \\
+DFT  & discrete Fourier transform \\
+GABA  & $\gamma$-aminobutyric acid (an inhibitory neurotransmitter)\\
+GHK & Goldman--Hodgkin--Katz formula for membrane voltage \\
+IPSC   & inhibitory postsynaptic current \\
+IPSP   & inhibitory postsynaptic potential \\
+LOC	& loss of consciousness \\
+MAC & minimum anaesthetic concentration (a standard measure of anaesthetic
+potency) \\
+MEG & magnetoencephalogram (brain activity recorded via magnetic-field
+	probes) \\
+NOS & nitric oxide synthase (an enzyme that catalyzes production of NO,
+	nitric oxide) \\
+ODE	& ordinary differential equation \\
+OU  & Ornstein--Uhlenbeck (random process describing the 
+	velocity of a Brownian particle) \\
+PDE	& partial differential equation \\
+PDF	& probability density function \\
+PSP    & postsynaptic potential \\
+SDE	& stochastic differential equation (Langevin equation) \\
+rms    & root-mean square \\
+%
+\end{tabular*}
